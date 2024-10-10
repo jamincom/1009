@@ -67,8 +67,8 @@
         }
         
         .button-image {
-            margin-top: 30px; /* 버튼 간격 조정 */
-            width: 200px; /* 버튼 크기 확대 */
+            margin-top: 30px; 
+            width: 200px;
             height: 200px; 
             background-image: url('https://ifh.cc/g/gKzmMh.png');
             background-size: cover;
@@ -85,7 +85,7 @@
 <body>
     <h1>오늘의 명언을 알려드리겠습니다!</h1>
     <div class="bubble" id="quote-bubble">
-        명언이 여기 표시됩니다.
+       
       </div>
     <button class="button-image" id="stop-button"></button>
     <script>
@@ -125,7 +125,7 @@
         }
 
         document.getElementById('stop-button').addEventListener('click', () => {
-            clearInterval(interval);    alert("오늘도 화이팅!"); // 버튼 클릭 시 알림 창 표시
+            clearInterval(interval);    alert("오늘도 화이팅!"); 
         });
 
         window.onload = startQuoteRotation;
